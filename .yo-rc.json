@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitHubOrganization": "JohnnyCosta",
+    "baseName": "jhipsterSampleApplication",
+    "packageName": "io.github.jhipster.application",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "useSass": true,
+    "clientPackageManager": "yarn",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "fr",
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhipsterVersion": "4.14.3",
+    "packageFolder": "io/github/jhipster/application",
+    "jwtSecretKey": "1e7541f6f7b7dac7d7b7c92f442f5b0842c9199a",
+    "jhiPrefix": "jhi"
+  }
+}
